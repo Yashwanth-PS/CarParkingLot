@@ -1,5 +1,6 @@
 package repository;
 
+import exception.ParkingFloorNotFoundException;
 import models.ParkingFloor;
 
 import java.util.HashMap;
