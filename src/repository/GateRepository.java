@@ -1,7 +1,6 @@
 package repository;
 
-import Car_Parking_Lot.Exception.GateNotFoundException;
-import Car_Parking_Lot.Models.Gate;
+import models.Gate;
 
 import java.util.HashMap;
 import java.util.Map;
