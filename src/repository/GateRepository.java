@@ -1,5 +1,6 @@
 package repository;
 
+import exception.GateNotFoundException;
 import models.Gate;
 
 import java.util.HashMap;
