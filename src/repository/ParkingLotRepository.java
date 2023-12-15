@@ -2,6 +2,7 @@ package repository;
 
 
 
+import exception.ParkingLotNotFoundException;
 import models.Gate;
 import models.ParkingLot;
 

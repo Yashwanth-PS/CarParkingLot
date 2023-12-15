@@ -1,7 +1,8 @@
 package repository;
 
-import Car_Parking_Lot.Exception.ParkingSpotNotFoundException;
-import Car_Parking_Lot.Models.ParkingSpot;
+
+import exception.ParkingSpotNotFoundException;
+import models.ParkingSpot;
 
 import java.util.HashMap;
 import java.util.Map;
