@@ -1,6 +1,7 @@
 package dto;
 
 import models.Ticket;
+import models.constants.ResponseStatus;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
