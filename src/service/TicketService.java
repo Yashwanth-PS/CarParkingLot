@@ -10,6 +10,8 @@ import models.constants.VehicleType;
 import repository.GateRepository;
 import repository.ParkingLotRepository;
 import repository.TicketRepository;
+import strategy.SpotAllocationStrategy.SpotAllocationFactory;
+import strategy.SpotAllocationStrategy.SpotAllocationStrategy;
 
 import java.time.LocalDateTime;
 
