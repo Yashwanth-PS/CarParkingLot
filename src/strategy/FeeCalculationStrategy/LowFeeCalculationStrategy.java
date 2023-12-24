@@ -13,8 +13,8 @@ public class LowFeeCalculationStrategy implements FeeCalculationStrategy{
     @Override
     public long getFeeAmount(Ticket ticket) {
         LocalDateTime entryTime = ticket.getEntryTime();
-        LocalDateTime currentTime = LocalDateTime.now();
-        long numberOfMinutes = ChronoUnit.MINUTES.between(currentTime, entryTime);
+        LocalDateTime currentTime = LocalDateTime.now().plusHours(24);
+        long numberOfMinutes = ChronoUnit.MINUTES.between(entryTime, currentTime);
         if(ticket.getVehicle().getVehicleType().equals(VehicleType.Two_Wheeler))
             return numberOfMinutes * PER_MIN_RATE_2_WHEELER;
         else
